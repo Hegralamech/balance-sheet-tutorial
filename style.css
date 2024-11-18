@@ -1,0 +1,94 @@
+body, h1, h2, p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.attachment a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attachment a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.video{
+    max-width: 100%;
+    height:auto
+}
